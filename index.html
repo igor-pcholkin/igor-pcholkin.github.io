@@ -1,3 +1,70 @@
-<html>
-  <body>hi</body>
-</html>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Pcholkin - Scala engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="header-section-container">
+            <section class="image-section">
+                <img src="igor_pcholkin.jpg">
+            </section>  
+            <section class="slogan-section">
+                <h1>Transforming Complex Problems into Elegant Scala Solutions</h1>
+            </section>
+        </div>    
+    </header>
+
+    <section class="left-align">
+        <h2>About me</h2>
+        <p>Hi, my name is Igor Pcholkin. I'm software engineer with 25 years of experience in IT.</p>
+        <p>I help companies to solve problems using Scala as a primary tool.</p>
+    </section>
+
+    <section class="right-align">
+        <h2>Experience</h2>
+        <p><b>The client:</b> BBC</p>
+        <p><b>The Role:</b>Development team lead</p>
+        <p><b>Technologies used:</b> Scala, Tapir, Akka, cats effect</p>
+        <p>Helping to migrate backend services previously using akka to use tapir framework instead.</p>      
+    </section>
+
+    <section class="left-align">
+        <h2>Tools and technologies at disposal</h2>
+    </section>
+
+    <!-- Order Form Section -->
+    <section>
+        <div class="order-form">
+            <h3>Start to use my service</h3>
+            <p>Order one of the following:</p>
+            <form id="order-form" method="POST" action="https://formspree.io/f/mwpkbvkl">
+                <select id="service" name="service" required>
+                    <option value="free-consultation">FREE initial 15 min consultation ($0)</option>
+                    <option value="custom-develop-40h">Custom development solution (40 hours) ($1999)</option>
+                </select>
+                <!-- p class="discount" >* For a limited period, 1 hour consultation is <strong>FREE</strong> and the same is for UI dashboard!</p -->
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Detailed Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Igor Pcholkin All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
