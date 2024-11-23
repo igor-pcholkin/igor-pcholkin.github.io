@@ -3,20 +3,19 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            /* background-color: #f4f4f4; */
         }
 
         header {
-            background: #aaaaaa;
-            color: white;
+            background: #eeffee;
+            color: black;
             text-align: center;
         }
 
         header h1 {
-            font-size: 2.5em;
+            font-size: 1.5em;
             margin: 0;
             font-weight: normal;
+            padding-left: 10px;    
         }
 
         header p {
@@ -120,8 +119,7 @@
         }        
 
         footer {
-            background-color: #333;
-            color: white;
+            color: black;
             text-align: center;
             padding: 20px;
         }
@@ -149,9 +147,8 @@
         }
 
         .image-section {
-            /*display: flex;
-            justify-content: flex-end;*/
             width: auto;
+            height: 100px;    
             padding: 0px;
             margin: 0px;
         }
@@ -164,7 +161,7 @@
 
         img {
             max-width: 100%;
-            height: auto;
+            height: 100px;
         }
 
         /* Responsive design */
