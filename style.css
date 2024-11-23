@@ -59,13 +59,13 @@
         section.left-align {
             text-align: left;
             max-width: 800px;
-            background-color: #f9f9f9;
         }
 
         /* Sections 3 and 5 should have text aligned to the right */
         section.right-align {
             margin-left: auto;
             max-width: 800px;
+            background-color: #f9f9f9;
         }
 
         section.description-section {
