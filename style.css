@@ -9,6 +9,8 @@
             background: #eeffee;
             color: black;
             text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
         header h1 {
@@ -65,6 +67,11 @@
             margin-left: auto;
             max-width: 800px;
         }
+
+        section.description-section {
+            padding-left: 10px;
+            padding-top: 0px;
+        }        
 
         /* Form Styles */
         .order-form {
