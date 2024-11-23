@@ -6,7 +6,7 @@
         }
 
         header {
-            background: #eeffee;
+            background: #f9f9f9;
             color: black;
             text-align: center;
             padding-top: 20px;
@@ -29,6 +29,11 @@
         section {
             padding: 20px;
         }
+
+        .about {
+            margin: 0px;
+            margin-bottom: 10px;    
+        }        
 
         section h2 {
             color: #333;
@@ -161,9 +166,9 @@
         }
 
         .slogan-section {
-            margin: 0px;
+            /*margin: 0px;
             margin-top: 20px;
-            padding: 0px;
+            padding: 0px;*/
         }
 
         img {
