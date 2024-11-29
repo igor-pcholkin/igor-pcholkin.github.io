@@ -16,6 +16,8 @@
             margin: 0;
             font-weight: normal;
             padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             color: cadetblue;    
         }
 
@@ -175,7 +177,6 @@
             margin-top: 20px;
             padding: 0px;*/
             font-family: system-ui;    
-            font-style: italic;    
         }
 
         img {
