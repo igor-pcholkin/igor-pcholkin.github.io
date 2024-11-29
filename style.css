@@ -16,7 +16,7 @@
             margin: 0;
             font-weight: normal;
             padding-left: 10px;
-            color: #008c8A;    
+            color: cadetblue;    
         }
 
         header p {
@@ -38,8 +38,9 @@
             color: darkgoldenrod;
             margin-bottom: 20px;
             font-size: 1.3em;
+            font-family: system-ui;
             width: fit-content;
-            border-bottom-style: dotted;    
+            border-bottom-style: dotted;                   
         }
 
         section p {
@@ -47,6 +48,7 @@
             color: #555;
             margin: 0 auto;
             margin-bottom: 10px;
+            font-family: cursive;    
         }
 
         section ul {
@@ -172,6 +174,7 @@
             margin-top: 20px;
             padding: 0px;*/
             font-family: system-ui;    
+            font-style: italic;    
         }
 
         img {
