@@ -10,7 +10,6 @@
             color: black;
             text-align: center;
             padding-top: 20px;
-            padding-bottom: 20px;
         }
 
         header h1 {
@@ -39,6 +38,8 @@
             color: #333;
             margin-bottom: 20px;
             font-size: 1.3em;
+            width: fit-content;
+            border-bottom-style: dotted;    
         }
 
         section p {
@@ -64,6 +65,7 @@
         section.left-align {
             text-align: left;
             max-width: 850px;
+            background: #FFFFDD;    
         }
 
         /* Sections 3 and 5 should have text aligned to the right */
@@ -169,6 +171,7 @@
             /*margin: 0px;
             margin-top: 20px;
             padding: 0px;*/
+            font-family: system-ui;    
         }
 
         img {
