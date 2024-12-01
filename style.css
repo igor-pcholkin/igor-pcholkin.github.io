@@ -71,21 +71,20 @@
         /* Sections 2, 4, and 6 should have text aligned to the left */
         section.left-align {
             text-align: left;
-            max-width: 850px;
             background: #FFFFDD;    
+            max-width: 950px;    
         }
 
         /* Sections 3 and 5 should have text aligned to the right */
         section.right-align {
             margin-left: auto;
-            max-width: 800px;
             background-color: #f9f9f9;
+            max-width: 950px;   
         }
 
         section.description-section {
             padding-left: 20px;
             padding-top: 0px;
-            max-width: 950px;
         }        
 
         /* Form Styles */
