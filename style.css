@@ -82,6 +82,10 @@
             max-width: 950px;   
         }
 
+        section.project {
+            color: lightseagreen;    
+        }
+
         section.description-section {
             padding-left: 20px;
             padding-top: 0px;
